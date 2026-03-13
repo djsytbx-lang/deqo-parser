@@ -10,7 +10,7 @@ TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 # --- НАСТРОЙКИ ---
 USERNAME = "djsytl"  
 REPO_NAME = "deqo-parser"
-SUB_URL = f"https://cdn.jsdelivr.net/gh/djsytbx/deqo-parser@main/results.txt"
+SUB_URL = f"https://cdn.jsdelivr.net/gh/djsytbx-lang/deqo-parser@main/results.txt"
 # -----------------
 
 async def check_vless(session, config):
