@@ -1,4 +1,4 @@
-name: Update VLESS List
+name: Parser
 on:
   workflow_dispatch: # Это добавит ту самую кнопку запуска
 
