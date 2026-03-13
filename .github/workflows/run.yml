@@ -1,38 +1,25 @@
 name: Update VLESS List
-
 on:
-  schedule:
-    - cron: '0 */6 * * *' # Запускать автоматически каждые 6 часов
-  workflow_dispatch:      # Добавляет кнопку "Запустить вручную" в интерфейс GitHub
+  workflow_dispatch: # Это добавит ту самую кнопку запуска
 
 jobs:
   run-parser:
-    runs-on: ubuntu-latest # Выделяет бесплатный сервер на Linux
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4 # Копирует файлы из твоего репозитория на сервер
-
-      - name: Setup Python
-        uses: actions/setup-python@v5 # Устанавливает Python на этот сервер
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: Install Dependencies
-        run: pip install -r requirements.txt # Устанавливает библиотеку aiohttp
-
-      - name: Run Parser
-        env:
-          # Здесь мы передаем твои секреты (токен бота) в код
+      - run: pip install -r requirements.txt
+      - env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python parser.py # Запуск самого парсера
-
-      - name: Commit and Push
+        run: python parser.py
+      - name: Push changes
         run: |
-          # Этот блок сохраняет результаты (results.txt) обратно в твой репозиторий
-          git config --global user.name "Parser-Bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "bot"
+          git config --global user.email "bot@bot.com"
           git add results.txt
-          git commit -m "Auto-update VLESS configs" || exit 0
+          git commit -m "update" || exit 0
           git push
           
