@@ -1,10 +1,5 @@
-vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=firefox
-vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=safari
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=ios
-vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=chrome
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=edge
-vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=android
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=firefox
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=chrome
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=qq
-vless://27653b37-603c-4c90-b1f5-25c4d23f8932@72.56.235.75:443?encryption=none&security=tls&serviceName=VideoRenderer&sni=renderer-bridge-2-121.mirra.now&type=grpc&fp=ios
+vless://258d8fc5-206c-48fd-88df-169dbbe44d3f@103.24.207.40:8443?flow=xtls-rprx-vision&security=reality&sni=edge-fr.extazy.net&pbk=ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY&fp=chrome
+vless://258d8fc5-206c-48fd-88df-169dbbe44d3f@103.24.207.40:8443?flow=xtls-rprx-vision&security=reality&sni=edge-fr.extazy.net&pbk=ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY&fp=android
+vless://258d8fc5-206c-48fd-88df-169dbbe44d3f@103.24.207.40:8443?flow=xtls-rprx-vision&security=reality&sni=edge-fr.extazy.net&pbk=ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY&fp=edge
+vless://258d8fc5-206c-48fd-88df-169dbbe44d3f@103.24.207.40:8443?flow=xtls-rprx-vision&security=reality&sni=edge-fr.extazy.net&pbk=ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY&fp=firefox
+vless://258d8fc5-206c-48fd-88df-169dbbe44d3f@103.24.207.40:8443?flow=xtls-rprx-vision&security=reality&sni=edge-fr.extazy.net&pbk=ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY&fp=safari
